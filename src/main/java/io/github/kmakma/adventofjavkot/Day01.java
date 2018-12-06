@@ -1,4 +1,4 @@
-package adventofjavkot;
+package io.github.kmakma.adventofjavkot;
 
 import java.util.HashSet;
 import java.util.List;

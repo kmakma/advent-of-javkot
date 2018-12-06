@@ -1,4 +1,4 @@
-package adventofjavkot;
+package io.github.kmakma.adventofjavkot;
 
 import org.jetbrains.annotations.Nullable;
 
