@@ -19,7 +19,7 @@ public class Day01 extends Day {
     @Override
     void partOne() {
         int sum = frequencyChanges.stream().mapToInt(Integer::intValue).sum();
-        System.out.println("=== STAR 1 ===");
+        System.out.println("=== DAY 01 - STAR 1 ===");
         System.out.println("Frequency after all changes have been applied: " + sum);
     }
 
@@ -27,7 +27,7 @@ public class Day01 extends Day {
     void partTwo() {
         int twiceReachedFrequency = findFirstFrequencyDuplicate();
 
-        System.out.println("=== STAR 2 ===");
+        System.out.println("=== DAY 02 - STAR 2 ===");
         System.out.println("First frequency reached twice: " + twiceReachedFrequency);
     }
 

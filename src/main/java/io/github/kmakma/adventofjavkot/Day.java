@@ -15,7 +15,7 @@ abstract class Day {
     List<String> inputLines = getInputLines();
 
     @Nullable
-    List<String> getInputLines() {
+    private List<String> getInputLines() {
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         URL dayInputURL = classloader.getResource(getClass().getSimpleName().toLowerCase());
         if (dayInputURL == null) {
