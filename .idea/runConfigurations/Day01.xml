@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Day01" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="adventofjavkot.Day01" />
+    <module name="io.github.kmakma.advent-of-javkot.main" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="adventofjavkot.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
