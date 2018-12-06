@@ -7,16 +7,10 @@ import java.util.Set;
 public class Day01 extends Day {
 
 
-    private final List<Integer> frequencyChanges;
-
-    private Day01() {
-        frequencyChanges = parseInt(getInputLines());
-        partOne();
-        partTwo();
-    }
+    private final List<Integer> frequencyChanges = parseInt();
 
     public static void main(String[] args) {
-        new Day01();
+        new Day01().executeParts();
     }
 
     /**

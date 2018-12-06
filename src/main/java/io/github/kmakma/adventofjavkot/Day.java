@@ -12,6 +12,8 @@ import java.util.List;
 
 abstract class Day {
 
+    List<String> inputLines = getInputLines();
+
     @Nullable
     List<String> getInputLines() {
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
@@ -29,12 +31,17 @@ abstract class Day {
         return null;
     }
 
-    List<Integer> parseInt(List<String> stringList) {
+    List<Integer> parseInt() {
         List<Integer> intList = new ArrayList<>();
-        for (String s : stringList) {
+        for (String s : inputLines) {
             intList.add(Integer.parseInt(s));
         }
         return intList;
+    }
+
+    void executeParts() {
+        partOne();
+        partTwo();
     }
 
     abstract void partOne();
